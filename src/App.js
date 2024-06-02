@@ -29,11 +29,13 @@ const App = () => {
                 </div>
                 <div className='row mt-3'>
                     <div className='col-sm'>
+                    <h2> Allocation </h2>
                         <ExpenseList />
                     </div>
                 </div>
                 <div className='row mt-3'>
                     <div className='col-sm'>
+                    <h2> Change Allocation </h2>
                         <AllocationForm />
                     </div>
                 </div>
